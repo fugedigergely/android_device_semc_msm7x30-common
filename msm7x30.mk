@@ -149,7 +149,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.composition.type=dyn \
     persist.hwc.mdpcomp.enable=false \
     debug.mdpcomp.maxlayer=3 \
-    debug.mdpcomp.idletime=-1
+    debug.mdpcomp.idletime=-1 \
+    qemu.hw.mainkeys=0
 
 # The OpenGL ES API level that is natively supported by this device.
 # This is a 16.16 fixed point number.

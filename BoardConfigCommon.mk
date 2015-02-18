@@ -119,7 +119,6 @@ endif
 MALLOC_IMPL := dlmalloc
 
 # Radio
-TARGET_RIL_VARIANT := semc
 TARGET_NEEDS_NON_PIE_SUPPORT := true
 
 # Boot Animation

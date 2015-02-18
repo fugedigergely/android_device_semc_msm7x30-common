@@ -141,7 +141,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false \
     ro.ril.def.agps.feature=1 \
     ro.ril.def.agps.mode=2 \
-    ro.use_data_netmgrd=true
+    ro.use_data_netmgrd=true \
+    ro.telephony.ril.config=fakeiccid \
+    ro.telephony.get_imsi_from_sim=true
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
